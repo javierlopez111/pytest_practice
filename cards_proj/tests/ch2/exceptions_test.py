@@ -3,6 +3,7 @@ import pytest
 
 
 def test_no_path_raises_exception():
+    # missing path within CardsDB() give the exception
     with pytest.raises(TypeError):
         cards.CardsDB()
 
